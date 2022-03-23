@@ -23,7 +23,8 @@ a {
 h1 {
     background-color: cornsilk;
     font-family: "Playfair Display";
-
+    font-size: 40px;
+    letter-spacing: 2em; 
     margin: 10px;
     padding: 20px;
 }
