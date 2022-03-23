@@ -1,8 +1,8 @@
 body {
-    background-color: palegoldenrod;
-    color: maroon;
-    font-size: 18px;
-    font-family: courier;
+    background-color: floralwhite;
+    color: darkslateblue;
+    font-size: 8px;
+    font-family: playfair display;
     text-align: center
 
 }
@@ -20,8 +20,8 @@ a {
 }
 
 h1 {
-    background-color: darkkhaki;
-    font-family: "Gotham Medium";
+    background-color: cornsilk;
+    font-family: "Playfair Display";
     font-variant: small-caps;
 
     margin: 10px;
@@ -31,28 +31,22 @@ h1 {
     border-width: 3px;
     border-left-width: 10px;
     border-right-width: 3px;
-    border-color: olive
+    #border-color: olive
 }
 
 h2 {
-    background-color: khaki;
-    font-family: "Gotham Medium";
-    text-decoration: underline;
+    background-color: cornsilk;
+    font-family: "Playfair Display";
+    font-variant: small-caps;
 
     margin: 10px;
     padding: 20px;
-
-    border-style: solid;
-    border-width: 2px;
-    border-left-width: 10px;
-    border-right-width: 2px;
-    border-color: olive
 }
 
 img {
-    border-style: dashed;
+    border-style: solid;
     border-width: 5px;
-    border-color: green;
+    border-color: white;
 }
 
 li {
