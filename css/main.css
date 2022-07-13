@@ -22,6 +22,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+  color: #735d59;
+}
+
 h1 {
     font-family: 'Sora', sans-serif;
     font-size: 40px;
