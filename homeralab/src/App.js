@@ -4,6 +4,8 @@ import Menu from './Menu';
 import SkillsList from './SkillsList';
 import Intro from './Intro';
 import Bio from './Bio';
+import Slideshow from './Slideshow'
+import ProjectsList from './ProjectsList';
 
 function App() {
   
@@ -13,6 +15,8 @@ function App() {
       <Intro />
       <Bio />
       <SkillsList />
+      <ProjectsList />
+      <Slideshow />
     </div>
   );
 }

@@ -35,6 +35,18 @@ function SkillsList(props) {
         "Experienced in building web apps with React, including use of hooks and state management libraries like Redux.",
       image: "/react.png",
     },
+    {
+      name: "Java",
+      description:
+        "Proficient in Java use in backend software design.",
+      image: "/java.png",
+    },
+    {
+      name: "Python",
+      description:
+        "Experienced in creating simple data structures with Python.",
+      image: "/python.png",
+    },
   ];
 
   return (
