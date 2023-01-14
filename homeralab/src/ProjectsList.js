@@ -18,7 +18,7 @@ function ProjectCard(props) {
 function ProjectsList(props) {
   const projects = [
     {
-      name: "CoffeeMaker",
+      name: "Coffee Maker",
       description:
         "Final project for software engineering class at Bowdoin, developed full stack software for a fictional coffee shop. Stores an ingredient inventory using a SQL database and uses REST API calls to allow editing of ingredients and recipes.",
       skills: ["Java", "HTML", "CSS", "Javascript", "Angular", "SQL"],
@@ -28,12 +28,16 @@ function ProjectsList(props) {
       description: "Created a React app that displays my technical experience and interests.",
       skills: ["React", "HTML", "CSS", "Javascript"],
     },
-
+    {
+      name: "Polar Scheduler",
+      description: "A Java application for scheduling college courses from a catalog, with options to edit courses.",
+      skills: ["Java"],
+    },
     {
         name: "Song of the Day *WIP*",
         description: "Currently working on a React app that can retrieve user Spotify listening data using the Spotify Web API, in order to improve my React skills.",
         skills: ["React", "HTML", "CSS", "Javascript"],
-      },
+    },
   ];
 
   return (

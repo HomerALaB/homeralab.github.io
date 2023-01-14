@@ -1,9 +1,9 @@
 import React from "react";
 
-function Bio() {
+function Bio({ id }) {
     
     return (
-        <div className="bio">
+        <div className="bio" id={id}>
             <img src="/face.jpg" alt="A photo of my face" className="portrait"></img>
             <p> I am a junior at Bowdoin College, originally from South Portland, ME. 
                 I am interested in full stack development and web design. 

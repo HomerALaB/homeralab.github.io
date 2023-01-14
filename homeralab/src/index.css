@@ -242,4 +242,8 @@ body {
   margin-bottom: 2em;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 

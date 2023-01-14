@@ -6,6 +6,8 @@ import Intro from './Intro';
 import Bio from './Bio';
 import Slideshow from './Slideshow'
 import ProjectsList from './ProjectsList';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+
 
 function App() {
   
@@ -13,10 +15,10 @@ function App() {
     <div className="App">
       <Menu />
       <Intro />
-      <Bio />
+      <Bio id="bio" />
       <SkillsList />
       <ProjectsList />
-      <Slideshow />
+      <Slideshow id="slideshow" />
     </div>
   );
 }
