@@ -16,6 +16,7 @@ function App() {
       <Menu />
       <Intro />
       <Bio id="bio" />
+      <Work />
       <SkillsList />
       <ProjectsList />
       <Slideshow id="slideshow" />
