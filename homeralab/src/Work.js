@@ -4,7 +4,8 @@ function WorkCard(props) {
     return (
       <div className="work-card">
         <h3>{props.name}</h3>
-        <p>{props.description}</p>
+        {props.image && <img src={props.image} alt={props.name} />}
+        <h2>{props.description}</h2>
         <ul>
           {props.skills.map(skill => (
             <li>{skill}</li>
@@ -15,7 +16,7 @@ function WorkCard(props) {
   }
   
 
-function WorkList(props) {
+function Work(props) {
   const work_exp = [
     {
       name: "LL Bean",
@@ -25,6 +26,7 @@ function WorkList(props) {
                 "Resolved e-commerce bugs, optimized data fixtures, and wrote automated tests using Cypress and JavaScript for use cases to improve website functionality",
                 "Collaborated with fellow interns in the IS department to deliver a presentation to 300+ employees across the company on current AI technologies",
             ],
+      image: "/llbean.png"
     },
     {
       name: "Bowdoin College",
@@ -33,6 +35,8 @@ function WorkList(props) {
                 "Explained core programming and logic concepts to students who were new to computer science",
         	    "Graded problem sets and developed point allocation rubrics to assess the quality of student work",
             ],
+      image: "/bowdoin.png"
+      
     },
     {
       name: "Meetinghouse Arts Freeport",
@@ -41,6 +45,7 @@ function WorkList(props) {
                 "Coordinated multiple social media campaigns and produced graphics to advertise for events",
                 "Photographed summer events to increase assets for publicity and grant writing",
             ],
+      image: "/mha.png"
     },
   ];
 
@@ -54,6 +59,7 @@ function WorkList(props) {
             name={work.name}
             description={work.description}
             skills={work.skills}
+            image={work.image}
           />
         ))}
       </div>

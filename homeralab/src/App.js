@@ -6,6 +6,7 @@ import Intro from './Intro';
 import Bio from './Bio';
 import Slideshow from './Slideshow'
 import ProjectsList from './ProjectsList';
+import Work from './Work';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 

@@ -246,4 +246,56 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Work */
+
+.work-card {
+  display: inline-block;
+  width: 550px;
+  height: 420px;
+  background-color: whitesmoke;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  overflow: hidden;
+  text-align: center;
+}
+
+.work-card h3 {
+  font-size: 1.2em;
+  margin: 1em 0;
+}
+
+.work-card h2 {
+  font-size: 1.0em;
+  margin: 1em 0;
+  font-style: italic;
+}
+
+.work-card p {
+  font-size: 0.9em;
+  margin: 0 1em 1em;
+  margin: 1em;
+}
+
+.work-card img {
+  width: 100%;
+  height: 100px;
+  object-fit: contain;
+}
+
+.work-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+.work-list h1 {
+  text-align: center;
+}
+
+
 
